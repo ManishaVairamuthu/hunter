@@ -28,9 +28,14 @@ class sumarrange
             res[i]=Integer.parseInt(String.valueOf(s.charAt(i)));
         }
         Arrays.sort(res);
+        if(res.length>0)
+        {
         for(int j=0;j<res.length;j++)
         {
             System.out.print(res[j]+" ");
         }
+        }
+        else
+        System.out.print("unique");
     }
 }
