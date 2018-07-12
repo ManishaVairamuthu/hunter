@@ -1,5 +1,5 @@
 import java.util.*;
-class index
+class indexguvi
 {
     public static void main(String args[])
     {
@@ -20,7 +20,12 @@ class index
         for(int j=0;j<s.length();j++)
         res[j]=Integer.parseInt(String.valueOf(s.charAt(j)));
         Arrays.sort(res);
+        if(res.length>0)
+        {
         for(int i=0;i<res.length;i++)
         System.out.print(res[i]+" ");
+        }
+        else
+        System.out.print("-1");
     }
 }
