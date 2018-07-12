@@ -1,5 +1,5 @@
 import java.util.*;
-class repeatarrangeguvi
+class sumarrange
 {
     public static void main(String args[])
     {
